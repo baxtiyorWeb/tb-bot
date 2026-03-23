@@ -6,11 +6,11 @@ const path = require('path');
 const TOKEN = process.env.BOT_TOKEN || '8207719958:AAHypY0eleZakBm1SWY8QqpnzcZzfLdhukI';
 const bot = new Telegraf(TOKEN);
 
-const DB_FILE = 'database.json';
-const USERS_FILE = 'users.json';
-const STATS_FILE = 'stats.json';
-const ADMINS_FILE = 'admins.json';
-const BROADCAST_LOG = 'broadcast.json';
+const DB_FILE = 'data/database.json';
+const USERS_FILE = 'data/users.json';
+const STATS_FILE = 'data/stats.json';
+const ADMINS_FILE = 'data/admins.json';
+const BROADCAST_LOG = 'data/broadcast.json';
 
 // Takroriy update'larni oldini olish
 const processedUpdates = new Set();
